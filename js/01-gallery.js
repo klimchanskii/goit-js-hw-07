@@ -18,6 +18,7 @@ const sortOutGalleryItems = galleryItems.map((element) => {
 
 }).join("")
 
+
 refGalleryBox.insertAdjacentHTML('afterbegin', sortOutGalleryItems)
 refGalleryBox.addEventListener("click", selectImg)
 
